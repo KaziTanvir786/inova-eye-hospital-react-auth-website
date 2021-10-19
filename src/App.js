@@ -3,6 +3,7 @@ import './App.css';
 import Achievements from './components/Achievements/Achievements';
 import Booking from './components/Booking/Booking';
 import Done from './components/Done/Done';
+import Emergeny from './components/Emergency/Emergeny';
 import Faq from './components/Faq/Faq';
 import Footer from './components/Footer/Footer';
 import Header from './components/Header/Header';
@@ -33,6 +34,9 @@ function App() {
             <Route path="/services">
               <Services></Services>
             </Route>
+            <PrivateRoute path="/emergency">
+              <Emergeny></Emergeny>
+            </PrivateRoute>
             <Route exact path="/">
               <Home></Home>
             </Route>

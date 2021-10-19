@@ -31,6 +31,8 @@ const Header = () => {
                                 <NavDropdown.Item as={Link} to="/achievements">ACHIEVEMENTS</NavDropdown.Item>
                                 <NavDropdown.Divider />
                                 <NavDropdown.Item as={Link} to="/faq">FAQ</NavDropdown.Item>
+                                <NavDropdown.Divider />
+                                <NavDropdown.Item as={Link} to="/emergency">EMERGENCY</NavDropdown.Item>
 
                             </NavDropdown>
                         </Nav>

@@ -4,7 +4,7 @@ import './Footer.css';
 const Footer = () => {
     return (
         <div className="footer mt-4 pt-4">
-            <h4 className="py-2">Subscribe</h4>
+            <h6 className="py-4">All rights reserved to Inova Eye Hospital ©</h6>
             <div className="mx-auto input-group mb-3">
                 <input type="text" className="form-control" placeholder="Enter your email" aria-label="Recipient's username" aria-describedby="button-addon2" />
                 <button className="btn btn-success" type="button" id="button-addon2">Subsccribe</button>
@@ -29,14 +29,13 @@ const Footer = () => {
                 <div id="right-part">
                     <h5 className="title mx-auto">Social Networks</h5>
                     <div className="my-4">
-                        <i className="fab fa-facebook-f"></i>
-                        <i className="fab fa-instagram"></i>
-                        <i className="fab fa-linkedin"></i>
-                        <i className="fab fa-twitter"></i>
+                        <i class="fab fa-facebook-f"></i>
+                        <i class="fab fa-instagram"></i>
+                        <i class="fab fa-linkedin"></i>
+                        <i class="fab fa-twitter"></i>
                     </div>
                 </div>
             </div>
-            <h6 className="py-4">All rights reserved to Inova Eye Hospital ©</h6>
         </div>
     );
 };
