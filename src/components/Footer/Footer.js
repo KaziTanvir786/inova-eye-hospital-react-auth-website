@@ -29,10 +29,10 @@ const Footer = () => {
                 <div id="right-part">
                     <h5 className="title mx-auto">Social Networks</h5>
                     <div className="my-4">
-                        <i class="fab fa-facebook-f"></i>
-                        <i class="fab fa-instagram"></i>
-                        <i class="fab fa-linkedin"></i>
-                        <i class="fab fa-twitter"></i>
+                        <i className="fab fa-facebook-f"></i>
+                        <i className="fab fa-instagram"></i>
+                        <i className="fab fa-linkedin"></i>
+                        <i className="fab fa-twitter"></i>
                     </div>
                 </div>
             </div>
