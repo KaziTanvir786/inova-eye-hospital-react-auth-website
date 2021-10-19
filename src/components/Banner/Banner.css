@@ -10,6 +10,18 @@
     grid-template-columns: repeat(2, 1fr);
 }
 
+.banner-button{
+    padding: 20px;
+    border: 2px solid #0bcfce;
+    border-radius: 35px;
+    background-color: rgba(245, 245, 245, 0);
+    transition: 0.3s;
+}
+
+.banner-button:hover{
+    background-color: #0bcfce;
+}
+
 /* responsive */
 @media only screen and (max-width: 688px){
     .banner-container{

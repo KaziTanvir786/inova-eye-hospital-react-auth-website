@@ -7,7 +7,7 @@ const Footer = () => {
             <h6 className="py-4">All rights reserved to Inova Eye Hospital ©</h6>
             <div className="mx-auto input-group mb-3">
                 <input type="text" className="form-control" placeholder="Enter your email" aria-label="Recipient's username" aria-describedby="button-addon2" />
-                <button className="btn btn-success" type="button" id="button-addon2">Subsccribe</button>
+                <button className="btn footer-button" type="button" id="button-addon2">Subsccribe</button>
             </div>
             <div className="footer-body">
                 <div id="left-part">

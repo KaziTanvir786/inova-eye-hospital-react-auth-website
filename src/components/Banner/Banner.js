@@ -14,7 +14,7 @@ const Banner = () => {
                         <h1>IN<span style={{ color: "#0bcfce" }}>O</span>VA Eye Hospital</h1>
                         <h6 style={{ color: "gray" }}>We promise to keep your eyes healthier than ever!</h6>
                     </h1>
-                    <Link to="/services"><button className="m-4 btn btn-success">Visit Our Services</button></Link>
+                    <Link to="/services"><button className="banner-button m-4">Visit Our Services</button></Link>
                 </div>
                 <div>
 

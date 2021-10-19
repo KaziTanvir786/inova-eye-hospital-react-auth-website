@@ -38,6 +38,10 @@ i{
     border-right: 2px solid whitesmoke;
 }
 
+.footer-button{
+    background-color: #0bcfce;
+}
+
 /* responsive */
 @media only screen and (max-width: 688px){
     .footer-body{
