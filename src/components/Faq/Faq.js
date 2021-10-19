@@ -21,27 +21,27 @@ const Faq = () => {
             <h2 className="heading mx-auto mb-5">Frequently Asked Questions</h2>
             <Accordion style={{ textAlign: 'left' }}>
                 <Accordion.Item eventKey="0">
-                    <Accordion.Header><h5>How to get admission to this academy?</h5></Accordion.Header>
+                    <Accordion.Header><h5>How to get admit?</h5></Accordion.Header>
                     <Accordion.Body>
-                        You can visit us or email us to confirm your admission on your desired course. You have to fill up a form given by the academy registrar. After filling the form, you have to pay the 50% of the charge, and you're done.
+                        We have the best procedure of your admission in the hospital. You can visit our hospital campus and then get admitted after the first term consultation. We also have emergency services such that Ambulance, and emergey ward to take care of your urgency. Besides, you can email us from the website to comfirm your booking of appointment.
                     </Accordion.Body>
                 </Accordion.Item>
                 <Accordion.Item eventKey="1">
-                    <Accordion.Header><h5>Can I enroll for the training in online?</h5></Accordion.Header>
+                    <Accordion.Header><h5>Can I get consiltation online?</h5></Accordion.Header>
                     <Accordion.Body>
-                        Currently we are not offering any online courses. For this reason you must have to come offline to the academy to join the trainings as well as get admitted. If you still want a online course then email us asap.
+                        Currently in the Covid-19 situation, we are consulting patients online also. But some teste and checkup cannot be held online. So you can check yourself that you can get cured online or not. Just send us an email will proper subject.
                     </Accordion.Body>
                 </Accordion.Item>
                 <Accordion.Item eventKey="2">
-                    <Accordion.Header><h5>Can I enroll for two or more courses at a time?</h5></Accordion.Header>
+                    <Accordion.Header><h5>Are you take credit card payments?</h5></Accordion.Header>
                     <Accordion.Body>
-                        The enrollment of multiple trainings is totally up to your capability. But we recommend that please don't enroll more than two courses at a time. Because language is a complicated training.
+                        Dear sir/ma'am, INOVA Eye Hospital is a non-profit organization. So first we care about your cure. The  payment is juat a legal procedure. So, after you have been cured, the payment is all up to you. We accepts all kinds of payment procedures.
                     </Accordion.Body>
                 </Accordion.Item>
                 <Accordion.Item eventKey="3">
-                    <Accordion.Header><h5>How much I will be benefitted from this academy?</h5></Accordion.Header>
+                    <Accordion.Header><h5>Can I visit your Hospital Campus?</h5></Accordion.Header>
                     <Accordion.Body>
-                        Currently we awarded as the best language trainer in Asia. We have the expert instructors. You will get the best guideline no doubt. If you want to ensure still, then visit our free class any time.
+                        You are always welsome to visit us figurly. But make sure you are not infected with Covid-19, manage distance, wear gloves and surgical masks. An another thing, your visit won't be succeed if any comercial purpose have found.
                     </Accordion.Body>
                 </Accordion.Item>
             </Accordion>

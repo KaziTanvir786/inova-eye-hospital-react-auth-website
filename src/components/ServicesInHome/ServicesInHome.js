@@ -15,7 +15,7 @@ const ServicesInHome = (props) => {
                         <div className="col-md-8">
                             <div className="card-body">
                                 <h5 className="card-title">{name}</h5>
-                                <p className="card-text">{description}</p>
+                                <p style={{ textAlign: "justify" }} className="card-text">{description}</p>
                                 <p className="card-text"><small className="text-muted">We have successfully cured {totalCured} {name} patients.</small></p>
                             </div>
                         </div>

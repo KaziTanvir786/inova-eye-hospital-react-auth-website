@@ -12,29 +12,29 @@ const Testimonials = () => {
                 <div className="carousel-item active">
                     <img src={patient1} className="d-block w-100" alt="..." />
                     <div className="carousel-caption d-none d-md-block">
-                        <h5>Second slide label</h5>
-                        <p>Some representative placeholder content for the second slide.</p>
+                        <h5>The best environment ever!</h5>
+                        <p>I stayed 1.5 months long for my cornea operation, but it felt like I was in a five start hotel.</p>
                     </div>
                 </div>
                 <div className="carousel-item">
                     <img src={patient2} className="d-block w-100" alt="..." />
                     <div className="carousel-caption d-none d-md-block">
-                        <h5>Second slide label</h5>
-                        <p>Some representative placeholder content for the second slide.</p>
+                        <h5>I Got the friendliest doctor!</h5>
+                        <p>Dr. Rumejh Melan was my doctor while I admitted, and I found like the best friend.</p>
                     </div>
                 </div>
                 <div className="carousel-item">
                     <img src={patient3} className="d-block w-100" alt="..." />
                     <div className="carousel-caption d-none d-md-block">
-                        <h5>Second slide label</h5>
-                        <p>Some representative placeholder content for the second slide.</p>
+                        <h5>Cheapest Treatment, Damn!</h5>
+                        <p>I waited  year to treat my eyes beacuase of all the hospitals were charging more, but damn, INOVA did it for 40% only.</p>
                     </div>
                 </div>
                 <div className="carousel-item">
                     <img src={patient4} className="d-block w-100" alt="..." />
                     <div className="carousel-caption d-none d-md-block">
-                        <h5>Second slide label</h5>
-                        <p>Some representative placeholder content for the second slide.</p>
+                        <h5>Not only eyes!</h5>
+                        <p>I was admitted for my eye care while I was 8 months pregnant, and believe me, I also got the gynaeocologists consultant here.</p>
                     </div>
                 </div>
             </div>
