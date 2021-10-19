@@ -1,0 +1,23 @@
+.banner{
+    height: 600px;
+    background-image: url("../../images/bg.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+.banner-container{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+}
+
+/* responsive */
+@media only screen and (max-width: 688px){
+    .banner-container{
+        grid-template-columns: repeat(1, 1fr);
+    }
+}
+@media only screen and (min-width:689px) and (max-width: 991px){
+    .banner-container{
+        grid-template-columns: repeat(1, 1fr);
+    }
+}

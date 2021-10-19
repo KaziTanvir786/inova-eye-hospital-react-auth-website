@@ -1,0 +1,19 @@
+.heading{
+    width: 40%;
+    font-size: 32px;
+    margin: 20px;
+    padding: 20px;
+    border-bottom: 2px solid #0bcfce;
+}
+
+/* responsive */
+@media only screen and (max-width: 688px){
+    .question-box{
+        display: none;
+    }
+}
+@media only screen and (min-width:689px) and (max-width: 991px){
+    .question-box{
+        display: none;
+    } 
+}

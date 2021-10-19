@@ -1,0 +1,24 @@
+.achievements{
+    margin: 30px;
+    width: 80%;
+}
+.achievement img{
+    width: 20%;
+}
+.about-text{
+    padding: 10px 20px;
+}
+.achievement {
+    padding: 30px;
+    margin: 10px;
+    border-radius: 10px;
+}
+.rates{
+    border-radius: 10px;
+    background-color: #0bcfce;
+    padding: 50px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+}

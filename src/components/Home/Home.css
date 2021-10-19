@@ -1,0 +1,26 @@
+.services-in-home{
+    display: grid;
+    grid-template-columns: 1fr, 1fr;
+}
+.headings{
+    width: 20%;
+    font-size: 32px;
+    margin: 40px;
+    padding: 20px;
+    border-bottom: 2px solid #0bcfce;
+}
+
+/* responsive */
+@media only screen and (max-width: 688px){
+    .headings{
+        width: 80%;
+        font-size: 26px;
+    }
+}
+@media only screen and (min-width:689px) and (max-width: 991px){
+    .headings{
+        width: 80%;
+        font-size: 26px;
+    }
+    
+}

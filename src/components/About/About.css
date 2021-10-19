@@ -1,0 +1,36 @@
+.features{
+    margin: 30px;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+}
+.feature img{
+    width: 30%;
+}
+.about-text{
+    padding: 10px 20px;
+}
+.feature {
+    padding: 30px;
+    margin: 10px;
+    border-radius: 10px;
+}
+
+/* responsive */
+@media only screen and (max-width: 688px){
+    .features{
+        grid-template-columns: repeat(1, 1fr);
+    }
+    .feature{
+        flex-direction: column;
+    }
+    .feature img{
+        margin-left: 22%;
+        width: 50%;
+    }
+    
+}
+@media only screen and (min-width:689px) and (max-width: 991px){
+    .features{
+        grid-template-columns: repeat(1, 1fr);
+    }
+}

@@ -1,0 +1,16 @@
+.not-found-img{
+    width: 35%;
+}
+
+/* responsive */
+@media only screen and (max-width: 688px){
+    .not-found-img{
+        width: 70%;
+    }
+    
+}
+@media only screen and (min-width:689px) and (max-width: 991px){
+    .not-found-img{
+        width: 70%;
+    }
+}

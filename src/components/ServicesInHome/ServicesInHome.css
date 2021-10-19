@@ -1,0 +1,14 @@
+.service-in-home{
+    border-radius: 10px;
+    box-shadow: 2px 2px 30px rgba(128, 128, 128, 0.288);
+    transition: 0.3s;
+}
+.service-in-home:hover{
+    border-radius: 10px;
+    box-shadow: 5px 5px 30px grey;
+    transform: scale(1.03);
+}
+.button-card a{
+    text-decoration: none;
+    color: black;
+}
