@@ -38,8 +38,8 @@ const Login = () => {
     }
 
     return (
-        <form onSubmit={handleEmailPasswordLogin} className="login-form p-4">
-            <h2 className="my-4 text-success">Please Login</h2>
+        <form onSubmit={handleEmailPasswordLogin} className="login-form p-4 mb-5">
+            <h2 style={{ color: "#087979" }} className="my-4">Please Login</h2>
             <div>
                 <div className="row mb-3">
                     <div className="col-sm-12">
@@ -62,8 +62,8 @@ const Login = () => {
                         </div>
                     </div>
                 </div>
-                <button type="submit" className="btn btn-success">Sign in</button> <br /> or, <br />
-                <button onClick={handleGoogleLogIn} className="btn btn-primary">Google Sign In</button>
+                <button type="submit" style={{ backgroundColor: "#087979" }} className="btn text-white">Sign in</button> <br /> or, <br />
+                <button onClick={handleGoogleLogIn} className="btn btn-primary"> <span className="me-2"><i class="fab fa-google"></i></span> Google Sign In</button>
             </div>
         </form>
     );
