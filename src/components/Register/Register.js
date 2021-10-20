@@ -7,6 +7,7 @@ const Register = () => {
     const { auth, signInUsingGoogle, createUserWithEmailAndPassword } = useAuth();
     const [email, setEmail] = useState('');
     const [password, setPassword] = useState('');
+    const [error, setError] = useState('');
 
     const handleEmailChange = e => {
         setEmail(e.target.value);
@@ -22,6 +23,10 @@ const Register = () => {
             .then(result => {
                 const user = result.user;
                 console.log(user);
+            })
+
+            .catch(error => {
+                setError(error.message);
             })
     }
 
@@ -47,11 +52,16 @@ const Register = () => {
                                     Already a user?
                                 </Link>
                             </div>
+                            <div>
+                                {
+                                    <h4 className="text-danger">{error}</h4>
+                                }
+                            </div>
                         </div>
                     </div>
                 </div>
                 <button type="submit" className="btn btn-success">Register</button> <br /> or, <br />
-                <button onClick={signInUsingGoogle} className="btn btn-primary">Google Sign In</button>
+                <button onClick={signInUsingGoogle} className="btn btn-primary"><span className="me-2"><i class="fab fa-google"></i></span>Google Sign In</button>
             </div>
         </form>
     );
