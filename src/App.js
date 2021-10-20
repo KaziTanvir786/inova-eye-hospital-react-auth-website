@@ -12,6 +12,7 @@ import Login from './components/Login/Login/Login';
 import NotFound from './components/NotFound/NotFound';
 import PrivateRoute from './components/PrivateRoute/PrivateRoute';
 import Register from './components/Register/Register';
+import ScrollToTop from './components/ScrollToTop/ScrollToTop';
 import Services from './components/Services/Services';
 import AuthProvider from './context/AuthProvider';
 
@@ -20,6 +21,7 @@ function App() {
     <div className="App">
       <AuthProvider>
         <BrowserRouter>
+          <ScrollToTop></ScrollToTop>
           <Header></Header>
           <Switch>
             <Route path="/home">

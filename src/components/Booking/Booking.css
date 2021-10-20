@@ -7,6 +7,11 @@
     transition: 0.3s;
 }
 
+.booking a{
+    text-decoration: none;
+    color: white;
+}
+
 .booking img{
     border-radius: 50%;
 }
