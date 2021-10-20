@@ -46,11 +46,11 @@ const Booking = () => {
                             <input required type="text" class="form-control" id="inputAddress" />
                         </div>
                         <div class="col-md-6">
-                            <label for="inputCity" class="form-label">Road</label>
+                            <label for="inputCity" class="form-label">City</label>
                             <input required type="text" class="form-control" id="inputCity" />
                         </div>
                         <div class="col-md-6">
-                            <label for="inputZip" class="form-label">City</label>
+                            <label for="inputZip" class="form-label">Zip</label>
                             <input required type="text" class="form-control" id="inputZip" />
                         </div>
                         <div class="col-md-12">
