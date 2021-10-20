@@ -7,6 +7,7 @@ const Login = () => {
     const { auth, setIsLoading, signInUsingGoogle, signInWithEmailAndPassword } = useAuth();
     const [email, setEmail] = useState('');
     const [password, setPassword] = useState('');
+    const [error, setError] = useState('');
     const location = useLocation();
     const history = useHistory();
     const redirect_uri = location.state?.from || '/';
@@ -15,6 +16,9 @@ const Login = () => {
         signInUsingGoogle()
             .then(result => {
                 history.push(redirect_uri);
+            })
+            .catch(error => {
+                console.log(error.message);
             })
             .finally(() => {
                 setIsLoading(false);
@@ -34,6 +38,10 @@ const Login = () => {
         signInWithEmailAndPassword(auth, email, password)
             .then(result => {
                 history.push(redirect_uri);
+                setError('');
+            })
+            .catch(error => {
+                setError(error.message);
             })
     }
 
@@ -58,6 +66,11 @@ const Login = () => {
                                 <Link to="/register">
                                     Create an account
                                 </Link>
+                            </div>
+                            <div>
+                                {
+                                    <h4 className="text-danger">{error}</h4>
+                                }
                             </div>
                         </div>
                     </div>
