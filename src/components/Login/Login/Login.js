@@ -76,7 +76,7 @@ const Login = () => {
                     </div>
                 </div>
                 <button type="submit" style={{ backgroundColor: "#087979" }} className="btn text-white">Sign in</button> <br /> or, <br />
-                <button onClick={handleGoogleLogIn} className="btn btn-primary"> <span className="me-2"><i class="fab fa-google"></i></span> Google Sign In</button>
+                <button onClick={handleGoogleLogIn} className="btn btn-primary"> <span className="me-2"><i className="fab fa-google"></i></span> Google Sign In</button>
             </div>
         </form>
     );

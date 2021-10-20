@@ -32,30 +32,30 @@ const Booking = () => {
                 <br />
                 <h2 className="heading mx-auto w-75 my-5">Enter your details and book an appointment</h2>
                 <div>
-                    <form class="row g-3">
-                        <div class="col-md-6">
-                            <label for="inputEmail4" class="form-label">Name</label>
-                            <input required value={user.displayName} type="text" class="form-control" id="inputName" />
+                    <form className="row g-3">
+                        <div className="col-md-6">
+                            <label for="inputEmail4" className="form-label">Name</label>
+                            <input required value={user.displayName} type="text" className="form-control" id="inputName" />
                         </div>
-                        <div class="col-md-6">
-                            <label for="inputEmail4" class="form-label">Email</label>
-                            <input required value={user.email} type="email" class="form-control" id="inputEmail" />
+                        <div className="col-md-6">
+                            <label for="inputEmail4" className="form-label">Email</label>
+                            <input required value={user.email} type="email" className="form-control" id="inputEmail" />
                         </div>
-                        <div class="col-12">
-                            <label for="inputAddress" class="form-label">Address</label>
-                            <input required type="text" class="form-control" id="inputAddress" />
+                        <div className="col-12">
+                            <label for="inputAddress" className="form-label">Address</label>
+                            <input required type="text" className="form-control" id="inputAddress" />
                         </div>
-                        <div class="col-md-6">
-                            <label for="inputCity" class="form-label">City</label>
-                            <input required type="text" class="form-control" id="inputCity" />
+                        <div className="col-md-6">
+                            <label for="inputCity" className="form-label">City</label>
+                            <input required type="text" className="form-control" id="inputCity" />
                         </div>
-                        <div class="col-md-6">
-                            <label for="inputZip" class="form-label">Zip</label>
-                            <input required type="text" class="form-control" id="inputZip" />
+                        <div className="col-md-6">
+                            <label for="inputZip" className="form-label">Zip</label>
+                            <input required type="text" className="form-control" id="inputZip" />
                         </div>
-                        <div class="col-md-12">
-                            <label for="inputState" class="form-label">Choose appointment type</label>
-                            <select id="inputState" class="form-select">
+                        <div className="col-md-12">
+                            <label for="inputState" className="form-label">Choose appointment type</label>
+                            <select id="inputState" className="form-select">
                                 <option selected>Offline</option>
                                 <option>Online</option>
                             </select>

@@ -61,7 +61,7 @@ const Register = () => {
                     </div>
                 </div>
                 <button type="submit" className="btn btn-success">Register</button> <br /> or, <br />
-                <button onClick={signInUsingGoogle} className="btn btn-primary"><span className="me-2"><i class="fab fa-google"></i></span>Google Sign In</button>
+                <button onClick={signInUsingGoogle} className="btn btn-primary"><span className="me-2"><i className="fab fa-google"></i></span>Google Sign In</button>
             </div>
         </form>
     );
