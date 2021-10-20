@@ -13,10 +13,10 @@ const Booking = () => {
             .then(data => setServices(data));
     }, [])
 
-    const name = services[serviceId]?.name;
-    const description = services[serviceId]?.description;
-    const img = services[serviceId]?.img;
-    const totalCured = services[serviceId]?.totalCured;
+    const name = services[serviceId - 1]?.name;
+    const description = services[serviceId - 1]?.description;
+    const img = services[serviceId - 1]?.img;
+    const totalCured = services[serviceId - 1]?.totalCured;
 
     if (services.length !== 0) {
         return (
